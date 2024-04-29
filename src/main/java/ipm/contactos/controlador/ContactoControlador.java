@@ -63,6 +63,6 @@ public class ContactoControlador {
         Contacto contacto = new Contacto();
         contacto.setIdContacto(idContacto);
         contactoServicio.eliminarContacto(contacto);
-        return "redirecto:/";
+        return "redirect:/";
     }
 }
